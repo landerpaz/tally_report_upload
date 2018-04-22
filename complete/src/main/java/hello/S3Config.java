@@ -26,16 +26,16 @@ import com.amazonaws.services.s3.transfer.TransferManagerBuilder;
 public class S3Config {
 	
 	//@Value("${jsa.aws.access_key_id}")
-	private String awsId="AKIAJ236YYHVV3UTSRCA";
+	private String awsId="";
 
 	//@Value("${jsa.aws.secret_access_key}")
-	private String awsKey="3NF/bbIZeiNFv5O7ZXn4eUkRXSfOjxDVzPDZijmV";
+	private String awsKey="";
 	
 	//@Value("${jsa.s3.region}")
-	private String region="ap-south-1";
+	private String region="";
 	
 	//@Value("${jsa.s3.bucket}")
-	private String bucketName = "tallyselva";
+	private String bucketName = "";
 	
 	private Logger logger = LoggerFactory.getLogger(S3Config.class);
 

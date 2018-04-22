@@ -26,10 +26,10 @@ import com.amazonaws.services.s3.transfer.TransferManagerBuilder;
 public class S3Config {
 	
 	//@Value("${jsa.aws.access_key_id}")
-	private String awsId="AKIAJVV726YW43DBG4TA";
+	private String awsId="AKIAJ236YYHVV3UTSRCA";
 
 	//@Value("${jsa.aws.secret_access_key}")
-	private String awsKey="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";
+	private String awsKey="3NF/bbIZeiNFv5O7ZXn4eUkRXSfOjxDVzPDZijmV";
 	
 	//@Value("${jsa.s3.region}")
 	private String region="ap-south-1";
